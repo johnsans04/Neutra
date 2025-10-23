@@ -65,6 +65,7 @@ body {
 }
 
 .container {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 24px;
@@ -93,13 +94,11 @@ body {
 /* HEADER */
 header {
     height: 84px;
-    width: 100vw;
     display: flex;
     align-items: center;
 }
 
 header .container {
-    width: 100%;
     display: flex;
     gap: 16px;
 }
